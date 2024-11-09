@@ -79,7 +79,7 @@
 /* Estilo del área de resultados */
 .results-area {
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
 	margin-left: 40px;
     padding: 20px;
     background-color: #f8f9fa;
@@ -90,7 +90,7 @@
 /* Estilo de la sección extra */
 .extra-section {
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
 	margin-left: 40px;
     background-color: #e9ecef;
     border: 1px solid #ddd;
