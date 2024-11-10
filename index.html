@@ -65,6 +65,11 @@ html,body,h2,h3,h4 {font-family: Helvetica, sans-serif}
 			<!-- Barra de navegación -->
 			<div class="nav-bar">
 					<button id="btnn" class="w3-btn w3-red w3-round w3-margin-bottom adjust-spacing w3-hover-green btn-font w3-padding w3-space-letters w3-card-4" onclick="setTimeout(simulateClick.bind(null, 'image-selector'), 200)"><i class='fas fa-camera w3-padding-right' style='font-size:15px'></i><b>Enviar una imagen de una lesión en la piel</b></button>
+					<input id="image-selector" type="file" style="display: none;">
+					<!-- Botón estilizado -->
+					<button class="custom-file-button" style='font-size:15px'onclick="document.getElementById('image-selector').click();">
+						<i class="fas fa-upload"></i> 
+					</button>
 					<button id="predict-button" class="w3-btn w3-red w3-round w3-margin-bottom adjust-spacing w3-hover-green btn-font w3-padding w3-space-letters w3-card-4">
 						<i class='fas fa-magic w3-padding-right' style='font-size:15px'></i><b>Predict</b>
 					</button>

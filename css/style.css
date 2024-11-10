@@ -97,6 +97,32 @@
     border-radius: 5px;
 }
 
+.file-input-container {
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.custom-file-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 38px; /* Ajusta esta altura según lo necesites */
+    padding: 0px 10px; /* Tamaño reducido del botón */
+    font-size: 14px; /* Tamaño de fuente reducido */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.custom-file-button:hover {
+    background-color: #66cc66; /* Cambia el color en hover */
+}
+
 
 .page-footer {
     grid-area: footer;
